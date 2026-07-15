@@ -6,7 +6,7 @@ Gamemode de Team Deathmatch para SA-MP (San Andreas Multiplayer) onde os jogador
 
 ## O que é o SA-MP?
 
-[SA-MP](https://www.sa-mp.com/) (San Andreas Multiplayer) é um mod gratuito para GTA: San Andreas que transforma o modo campanha offline do jogo em uma experiência multiplayer, permitindo que servidores de terceiros hospedem seus próprios modos de jogo (gamemodes) escritos na linguagem **Pawn**.
+[SA-MP](https://www.sa-mp.mp/) (San Andreas Multiplayer) é um mod gratuito para GTA: San Andreas que transforma o modo campanha offline do jogo em uma experiência multiplayer, permitindo que servidores de terceiros hospedem seus próprios modos de jogo (gamemodes) escritos na linguagem **Pawn**.
 
 **Pawn** (antigamente conhecida como Small) é uma linguagem de script embutida, sem tipos (typeless) e com sintaxe muito próxima da linguagem C. É a linguagem padrão utilizada para criar gamemodes, sistemas e modificações de servidores SA-MP.
 
