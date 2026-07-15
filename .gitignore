@@ -1,0 +1,61 @@
+# Ignore everything by default
+*
+
+# Keep the .gitignore file itself
+!.gitignore
+
+# Keep repository metadata and documentation
+!README.md
+!/images/
+!/images/**
+
+# Keep the root include folder and its contents
+!/include/
+!/include/**
+
+# Keep DLLs as requested
+!*.dll
+
+# Keep scriptfiles and its contents
+!/scriptfiles/
+!/scriptfiles/**
+
+# Keep the gamemode and its compiled AMX
+!/gamemodes/
+!/gamemodes/Hit_And_Run.pwn
+!/gamemodes/Hit_And_Run.amx
+
+# Keep the filterscript folder and selected filterscripts with compiled AMX
+!/filterscripts/
+!/filterscripts/Hit_And_Run_Titulo_Menu.pwn
+!/filterscripts/Hit_And_Run_Titulo_Menu.amx
+!/filterscripts/gl_actions.pwn
+!/filterscripts/gl_actions.amx
+!/filterscripts/gl_realtime.pwn
+!/filterscripts/gl_realtime.amx
+!/filterscripts/gl_property.pwn
+!/filterscripts/gl_property.amx
+!/filterscripts/gl_mapicon.pwn
+!/filterscripts/gl_mapicon.amx
+!/filterscripts/ls_elevator.pwn
+!/filterscripts/ls_elevator.amx
+!/filterscripts/attachments.pwn
+!/filterscripts/attachments.amx
+!/filterscripts/skinchanger.pwn
+!/filterscripts/skinchanger.amx
+!/filterscripts/vspawner.pwn
+!/filterscripts/vspawner.amx
+!/filterscripts/ls_mall.pwn
+!/filterscripts/ls_mall.amx
+!/filterscripts/ls_beachside.pwn
+!/filterscripts/ls_beachside.amx
+
+# Keep only the include files required by Hit_And_Run.pwn for compilation
+!/pawno/
+!/pawno/include/
+!/pawno/include/a_samp.inc
+!/pawno/include/zcmd.inc
+!/pawno/include/sscanf2.inc
+!/pawno/include/tdm_team.inc
+!/pawno/include/tdm_commands.inc
+!/pawno/include/tdm_colors.inc
