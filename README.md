@@ -68,16 +68,19 @@ Atores (NPCs) parados foram adicionados nas áreas de spawn como decoração, re
 
 ## Estrutura do projeto
 
-O arquivo principal (`Gw_Tdm.pwn`) foi mantido enxuto, servindo apenas como ponto de integração. Toda a lógica foi separada em módulos `.inc` para facilitar manutenção:
+O arquivo principal (`Hit_And_Run.pwn`) foi mantido enxuto, servindo apenas como ponto de integração. Toda a lógica foi separada em módulos `.inc` para facilitar manutenção:
 
 ```
 gamemodes/
-└── Gw_Tdm.pwn          # Arquivo principal, integra os módulos e trata os callbacks
+└── Hit_And_Run.pwn          # Arquivo principal, integra os módulos e trata os callbacks
 
 pawno/include/
 ├── tdm_team.inc         # Times, spawns, skins, armas e veículos
 ├── tdm_commands.inc     # Comandos de chat (/help, /kill, /carro, /time)
 └── tdm_colors.inc       # Constantes de cores usadas nas mensagens do chat
+
+filterscripts/
+└── Hit_And_Run_Titulo_Menu.pwn          # Logotipo do Gamemode
 ```
 
 Esse desenvolvimento foi feito de forma iterativa: cada função nova era escrita primeiro em seu respectivo `.inc` e só depois integrada ao `.pwn` principal para teste.
