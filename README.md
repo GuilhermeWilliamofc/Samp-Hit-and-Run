@@ -92,13 +92,14 @@ Esse desenvolvimento foi feito de forma iterativa: cada função nova era escrit
 
 ## Como instalar e rodar
 
-1. Baixe o [servidor SA-MP 0.3.7](https://www.sa-mp.com/download.php) para o seu sistema operacional.
-2. Copie `Hit_And_Run.pwn` para a pasta `gamemodes/` do servidor.
+1. Baixe o [servidor SA-MP 0.3.7](https://www.sa-mp.mp/create-server/) para o seu sistema operacional.
+2. Copie `Hit_And_Run.amx` para a pasta `gamemodes/` do servidor.
 3. Copie os arquivos `tdm_team.inc`, `tdm_commands.inc` e `tdm_colors.inc` para `pawno/include/`.
-4. Garanta que os includes `ZCMD` e `sscanf2` também estejam em `pawno/include/`.
-5. Compile `Hit_And_Run.pwn` usando o Pawno (`pawno.exe`) ou o compilador externo (`pawncc.exe`).
-6. No `server.cfg`, defina o gamemode compilado (`gamemode0 Hit_And_Run 1`).
-7. Inicie o servidor.
+4. Copie o arquivo `Hit_And_Run_Titulo_Menu.amx` para a pasta `filterscripts/` do servidor.
+5. Garanta que os includes `ZCMD` e `sscanf2` também estejam em `pawno/include/`.
+6. Compile `Hit_And_Run.pwn` usando o Pawno (`pawno.exe`) ou o compilador externo (`pawncc.exe`).
+7. No `server.cfg`, defina o gamemode compilado (`gamemode0 Hit_And_Run 1`) e o filterscript (`filterscripts Hit_And_Run_Titulo_Menu`).
+8. Inicie o servidor.
 
 ## O que já foi feito
 
