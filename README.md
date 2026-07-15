@@ -97,9 +97,10 @@ Esse desenvolvimento foi feito de forma iterativa: cada função nova era escrit
 3. Copie os arquivos `tdm_team.inc`, `tdm_commands.inc` e `tdm_colors.inc` para `pawno/include/`.
 4. Copie o arquivo `Hit_And_Run_Titulo_Menu.amx` para a pasta `filterscripts/` do servidor.
 5. Garanta que os includes `ZCMD` e `sscanf2` também estejam em `pawno/include/`.
-6. Compile `Hit_And_Run.pwn` usando o Pawno (`pawno.exe`) ou o compilador externo (`pawncc.exe`).
-7. No `server.cfg`, defina o gamemode compilado (`gamemode0 Hit_And_Run 1`) e o filterscript (`filterscripts Hit_And_Run_Titulo_Menu`).
-8. Inicie o servidor.
+6. No `server.cfg`, defina o gamemode compilado (`gamemode0 Hit_And_Run 1`) e o filterscript (`filterscripts Hit_And_Run_Titulo_Menu`).
+7. Inicie o servidor.
+
+Caso Precise compile os arquivos `.pwn` para `.amx` usando o Pawno (`pawno.exe`) ou o compilador externo (`pawncc.exe`).
 
 ## O que já foi feito
 
